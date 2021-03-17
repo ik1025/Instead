@@ -2,21 +2,15 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="position-absolute top-50 start-50 translate-middle">
+
+      <h1 className="display-1">Enter Shoe</h1>
+
+      <form>
+        <input type="text" className="form-control form-control-lg"/> <br />
+        <input type="submit" className="btn btn-primary"/>
+      </form>
+
     </div>
   );
 }
